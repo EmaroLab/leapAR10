@@ -14,7 +14,7 @@ Using [Leapmotion](https://www.leapmotion.com/) as hand tracking sensor to contr
 ## Installation
 - download Leap Motion SDK <https://developer.leapmotion.com/sdk/v2>
 - unzip LeapSDK folder were you prefer
-- append ENV variable PYTHONPATH with path to Leap SDK: `export PYTHONPATH=$PYTHONPATH:/`**choosen_path**`/LeapSDK/lib:/`**choosen_path**`/LeapSDK/lib/x64`
+- append ENV variable PYTHONPATH with path to Leap SDK: `export PYTHONPATH=$PYTHONPATH:/choosen_path/LeapSDK/lib:/choosen_path/LeapSDK/lib/x64`
 - clone the repository in your workspace
 - run `catkin_make` to compile the project
 - you can add the user to group **dialout** so that the user can use the serial port without root previlage
