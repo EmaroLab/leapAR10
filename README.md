@@ -7,12 +7,16 @@ Using [Leapmotion](https://www.leapmotion.com/) as hand tracking sensor to contr
 
 ## Version and Dependencies
 - ROS: Kinetic
-- Leap SDK: 2.3.1+31549
+- Leap SDK: 2.3
 - python: 2.7
 - pyserial: 3.3
 
 ## Installation
+- download Leap Motion SDK <https://developer.leapmotion.com/sdk/v2>
+- unzip LeapSDK folder were you prefer
 - append ENV variable PYTHONPATH with path to Leap SDK: `export PYTHONPATH=$PYTHONPATH:/leapSDK/lib:/leapSDK/lib/x64:/usr/lib/Leap`
+export PYTHONPATH=$PYTHONPATH:/leapSDK/lib:/leapSDK/lib/x64:**choosen_path**/LeapSDK/lib/:**choosen_path**/LeapSDK/lib/x64/
+- clone the repository in your workspace
 - run `catkin_make` to compile the project
 - you can add the user to group **dialout** so that the user can use the serial port without root previlage
 
